@@ -1,4 +1,10 @@
-@import "{{ site.theme }}";
+---
+---
+
+// start content
+//@import "{{ site.theme }}";
 * {
     border: 1px solid red;
 }
+
+body {font-family:arial, sans-serif;}
