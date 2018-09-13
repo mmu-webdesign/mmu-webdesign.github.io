@@ -6,19 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ page.title }} &middot; {{ site.title }}</title>
-    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:400,400i,600|IBM+Plex+Sans:200,600" rel="stylesheet">
-
+    {% include mmu-type.html %}
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="/assets/css/style.css" />
 </head>
 
-<body>{% include mmu-header.html %} {% include mmu-nav.html %}
+<body id="top">{% include mmu-header.html %}
+
 
     <main>
+        <div class="content">
+            <p class="jump">
+                <a href="#section-nav">List all resources</a>
+            </p>
+            {{ content }}
 
-        {{ content }}
 
+
+        </div>
     </main>
 
+    {% include mmu-subnav.html %}
     {% include mmu-footer.html %}
 </body>
 

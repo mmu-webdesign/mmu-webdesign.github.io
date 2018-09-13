@@ -1,0 +1,308 @@
+// font-family: 'IBM Plex Serif', serif; 400, 700
+// font-family: 'IBM Plex Sans', sans-serif; 300,500
+$textcolour: hsl(203, 68, 10);
+$darktextcolour: hsl(203, 68, 3);
+$contentfont: 'IBM Plex Serif',
+georgia,
+serif;
+$mainheadingfont: 'IBM Plex Sans',
+helvetica,
+arial,
+sans-serif;
+$subsidiaryfont: 'IBM Plex Sans',
+helvetica,
+arial,
+sans-serif;
+$h1colour: hsl(203, 68, 34);
+$h2colour: hsl(53, 68, 32);
+$boxcolour:$h1colour;
+$boxbackground:hsl(203, 19, 88);
+$codingfont: 'roboto mono',
+'andale mono',
+Consolas,
+Menlo,
+Monaco,
+"Lucida Console",
+"Liberation Mono",
+"DejaVu Sans Mono",
+"Bitstream Vera Sans Mono",
+"Courier New",
+courier,
+monospace;
+$codefontcolour: hsl(353, 68, 36);
+$codingbackgroundcolour: hsl(203, 19, 93);
+$footerbackground:hsl(203, 19, 88);
+$footercolour: hsl(203, 68, 14);
+$breakpoint1: 650px;
+$maxwidth: 700px;
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: $contentfont;
+    color: $textcolour;
+    line-height: 1.35;
+    font-size: 1.1em;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    color: $textcolour; //text-decoration: none;
+    transition: all 0.2s ease;
+    text-decoration-skip-ink: auto;
+    text-decoration-skip: ink;
+    text-decoration-color: $h1colour;
+}
+
+a:hover {
+    color: $darktextcolour;
+}
+
+header {
+    padding-top: 40px;
+    @media screen and (min-width: $breakpoint1) {
+        padding-top: 20px;
+    }
+    svg {
+        max-width: 30px;
+        height: auto;
+        margin-right: 5px;
+        @media screen and (min-width: $breakpoint1) {
+            max-width: 40px;
+            margin-right: 7px;
+        }
+    }
+    h1 {
+        font-size: 1em;
+        margin: 0 auto;
+        padding: 0 0 15px 15px;
+        font-family: $mainheadingfont;
+        font-weight: 500;
+        max-width: $maxwidth;
+        @media screen and (min-width: $breakpoint1) {
+            padding: 50px 0 15px 15px;
+        }
+    }
+    h1 a {
+        text-decoration: none;
+    }
+    i {
+        text-transform: uppercase;
+        color: $h1colour;
+        font-style: normal;
+        font-size: 0.8em;
+    }
+    border-bottom:1px solid $footerbackground;
+    @media screen and (min-width: $breakpoint1) {}
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #ddd;
+    @media screen and (min-width: $breakpoint1) {
+        flex-wrap:nowrap;
+    }
+}
+
+nav ul li {
+    border-top: 1px solid #ddd;
+    flex: 50%;
+    min-height: 44px;
+    font-family: $mainheadingfont;
+    text-transform: uppercase;
+    font-size: 0.85em;
+    display: flex;
+    justify-content: left;
+    padding: 0 0 0 15px;
+    align-items: center;
+}
+
+.content {
+    padding: 30px 15px 100px 15px;
+    max-width: $maxwidth;
+    margin: 0 auto;
+    h1,
+    h2,
+    h3,
+    h4 {
+        font-family: $mainheadingfont;
+        margin: 0;
+        padding: 0;
+        font-size: 1em;
+        font-weight: 500;
+    }
+    h1 {
+        font-size: 2em;
+        padding: 0 0 0.5em 0;
+        line-height: 1.1;
+        font-family: $mainheadingfont;
+        font-weight: 300;
+        @media screen and (min-width: $breakpoint1) {
+            font-size: 2.5em;
+        }
+    }
+    h2 {
+        font-size: 1.35em;
+        color: $h2colour;
+        line-height: 1.1;
+        font-weight: 500;
+        padding-top: 2em;
+        padding-bottom: 0.2em;
+    }
+    h1+p {
+        font-size: 1.5em;
+    }
+    h1+p+p {
+        font-size: 1em;
+    }
+    p {
+        margin: 0;
+        padding: 0;
+    }
+    p+p {
+        padding-top: 0.75rem;
+    }
+    ul {
+        list-style-type: square;
+    }
+    ul,
+    ol {
+        margin: 0 0 0 1.5rem;
+        padding: 0 0 0.5rem 0;
+    }
+    p+ul,
+    p+ol {
+        padding-top: 0.7rem;
+    }
+    li {
+        margin-bottom: 0.25rem;
+    }
+    code {
+        //white-space: nowrap;
+    }
+    pre,
+    code {
+        font-family: $codingfont;
+        font-size: 0.94em;
+        font-weight: normal;
+        /* adjust to same x-height as sans */
+        color: $codefontcolour;
+    }
+    pre {
+        margin: 0.5em 0 0 0;
+        padding: 1em;
+        background: $codingbackgroundcolour;
+    }
+    pre {
+        white-space: pre-wrap;
+        /* css-3 */
+        white-space: -moz-pre-wrap;
+        /* Mozilla, since 1999 */
+        white-space: -pre-wrap;
+        /* Opera 4-6 */
+        white-space: -o-pre-wrap;
+        /* Opera 7 */
+        word-wrap: break-word;
+        /* Internet Explorer 5.5+ */
+    }
+    hr {
+        border: 0;
+        border-bottom: 1px solid #ddd;
+    }
+    .box {
+        color: $boxcolour;
+        margin: 30px 0;
+    }
+    .box p {
+        font-size: 1.3em;
+    }
+    .box p+p {
+        font-size: 1em;
+    }
+}
+
+.content.homepage {
+    font-family: $mainheadingfont;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.content.homepage p {
+    padding: 2em 0;
+}
+
+.areas {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    font-family:$contentfont;
+    text-align:left;
+    ul li {
+        padding: 10px;
+        background: red;
+        color: white;
+        font-size: 1rem;
+    }
+}
+
+footer {
+    background: $footerbackground;
+    color: $footercolour;
+    padding: 40px 15px;
+    font-family: $subsidiaryfont;
+    .footer__container {
+        max-width: $maxwidth+300;
+        margin: 0 auto;
+    }
+    @media screen and (min-width: $breakpoint1+300) {
+        padding: 50px 15px 80px 15px;
+    }
+    @media screen and (min-width: $breakpoint1+300) {
+        .footer__container {
+            display: flex;
+        }
+        .footer__logo {
+            margin-left: auto;
+        }
+        .footer__twitter {
+            padding-left: 50px;
+        }
+    }
+    p {
+        margin: 0;
+        padding: 0;
+    }
+    .footer__container>div {
+        padding-bottom: 30px;
+    }
+    .footer__twitter {
+        svg {
+            max-width: 15px;
+            height: auto;
+            fill: #1da1f2;
+        }
+    }
+    .footer__logo {
+        max-width: 200px;
+        svg {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}

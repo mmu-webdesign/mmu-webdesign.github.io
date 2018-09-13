@@ -1,0 +1,19 @@
+<nav class="section-nav for-section" id="section-nav">
+    <h3>All resources for current students</h3>
+
+    <ul class="resource-list">
+
+        {% for post in site.posts %}
+        {% if post.url == page.url %}
+        <li class="current-post">
+            {% else %}
+        <li>
+            {% endif %}
+            <p>
+                <a href="{{ post.url }}">{{ post.title }}</a> {{post.summary}}
+            </p>
+        </li>
+        {% endfor %}
+    </ul>
+
+</nav>

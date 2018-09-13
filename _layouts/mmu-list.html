@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <title>{{ page.title }} &middot; {{ site.title }}</title>
+    {% include mmu-type.html %}
+
+    <link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+
+<body>{% include mmu-header.html %}
+
+
+    <main>
+        <div class="content">
+
+            {{ content }}
+
+            <nav class="section-nav" id="section-nav">
+                <ul class="resource-list">
+
+                    {% for post in site.posts %}
+                    {% if post.url == page.url %}
+                    <li class="current-post">
+                        {% else %}
+                    <li>
+                        {% endif %}
+                        <p>
+                            <a href="{{ post.url }}">{{ post.title }}</a> {{post.summary}}
+                        </p>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </nav>
+
+
+        </div>
+    </main>
+
+    {% include mmu-footer.html %}
+</body>
+
+</html>
+
+</html>
