@@ -3,3 +3,6 @@ _site
 .jekyll-metadata
 temporary-pages/required-practices.html
 temporary-pages/required-practices.html
+Gemfile
+Gemfile.lock
+vendor
