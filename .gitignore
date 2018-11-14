@@ -6,3 +6,4 @@ temporary-pages/required-practices.html
 Gemfile
 Gemfile.lock
 vendor
+.bundle
