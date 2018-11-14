@@ -4,26 +4,21 @@ title:  Required Practices for Web Projects
 summary: Read this before you make a website!
 ---
 
-# Required Practices for Web Projects
-
  <h1>Required Practices for Web Assignments 2018&#8211;2019</h1>
 
-        <div class="box">
+ <div class="box">
             <p>In teaching web design as an academic subject, we need standards by which we can judge your work.</p>
             <p>What follows is based on actual W3C standards and industry ‘best practices’. Although these can be
                 broken in the commercial work environment for good reasons, it doesn’t mean that they are not best
                 practices. Whilst working for us your work
                 is required to conform to these practices. When out in the real world you will be able to make your own
                 judgement about what to use and what to ignore, but at least you will know
-                <strong>why</strong> you have come to your decision.</p>
-
-            <p>A classic example is the title attribute. On most elements this attribute is not necessary. However, by
+                <strong>why</strong> you have come to your decision.</p><p>A classic example is the title attribute. On most elements this attribute is not necessary. However, by
                 us insisting you use the title attribute when relevant on links (i.e. expanding on 'About' in a menu)
                 you can hone your skills in writing
                 a relevant title (and not just repeating the link text). Then when you do need to use them on real
                 projects you will understand the context and you know what is required.</p>
-
-            <p>Likewise, missing out an alt description for an image doesn’t mean that the image won’t display.
+<p>Likewise, missing out an alt description for an image doesn’t mean that the image won’t display.
                 However, learning to write good alt text will considerably improve the user experience for screen
                 reader users. And validating your HTML and CSS
                 not only makes you look more professional, it also helps you ensure your coding is future proof,
@@ -31,6 +26,8 @@ summary: Read this before you make a website!
 
             <p>&#8212; Richard Eskins &amp; Derren Wilson</p>
         </div>
+        
+        
         <h2>Homepage</h2>
 
         <p>The homepage of your site must be called
