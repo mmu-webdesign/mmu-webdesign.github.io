@@ -7,3 +7,4 @@ Gemfile
 Gemfile.lock
 vendor
 .bundle
+prepros-6.config
