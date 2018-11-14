@@ -23,46 +23,45 @@ summary: Read this before you make a website!
                 reader users. And validating your HTML and CSS
                 not only makes you look more professional, it also helps you ensure your coding is future proof,
                 correct and fit for purpose.</p>
-
-            <p>&#8212; Richard Eskins &amp; Derren Wilson</p>
-        </div>
+<p>&#8212; Richard Eskins &amp; Derren Wilson</p>
+</div>
         
         
-        <h2>Homepage</h2>
+<h2>Homepage</h2>
 
-        <p>The homepage of your site must be called
+<p>The homepage of your site must be called
             <code>index.html</code>. A submission that fails to conform will lose marks.</p>
 
-        <h2>Validation</h2>
+<h2>Validation</h2>
 
-        <p>
+<p>
             <a href="https://validator.w3.org/">All web pages submitted must validate</a>. Work should usually be
             validated to HTML5. Use of other standards should be agreed with the tutor. A submission that fails to
             validate (any page) will lose marks.</p>
 
-        <h2>Disclaimer</h2>
+<h2>Disclaimer</h2>
 
-        <p>All pages must carry our disclaimer that includes a link to the W3C Validator. Client work for final year
+<p>All pages must carry our disclaimer that includes a link to the W3C Validator. Client work for final year
             projects are exempt. A submission that fails to use the disclaimer will lose marks.</p>
 
-        <h2>HTML5</h2>
+<h2>HTML5</h2>
 
-        <p>HTML5 must be implemented using the best practices from XHTML.</p>
+<p>HTML5 must be implemented using the best practices from XHTML.</p>
 
-        <p>This includes:</p>
-        <ul>
-            <li>All elements lower case</li>
-            <li>Quote all attributes</li>
-            <li>All attributes lower case</li>
-            <li>Good
+<p>This includes:</p>
+<ul>
+<li>All elements lower case</li>
+<li>Quote all attributes</li>
+ <li>All attributes lower case</li>
+<li>Good
                 <br />
                 <code>&lt;a href="index.html"&gt;Back to homepage&lt;/a&gt;</code>
-            </li>
-            <li>Poor
+</li>
+<li>Poor
                 <br />
                 <code>&lt;A HREF=index.html&gt;Back to homepage&lt;/A&gt;</code>
-            </li>
-            <li>Closing all elements that have a closing tag, e.g.
+</li>
+<li>Closing all elements that have a closing tag, e.g.
                 <code>&lt;li&gt;&lt;/li&gt;</code>. For ‘self closing’ elements such as
                 <code>meta</code>,
                 <code>img</code> or
@@ -71,12 +70,11 @@ summary: Read this before you make a website!
                 <code>&lt;br&gt;</code> is fine, rather than
                 <code>&lt;br /&gt;</code>.</li>
 
-        </ul>
-        <p>Use our <a href="html-template.html">HTML template</a> as a starting point for your documents. The language
+</ul>
+<p>Use our <a href="html-template.html">HTML template</a> as a starting point for your documents. The language
             is set <code>&lt;html lang="en-gb"&gt;</code>. Adjust to match the main language of your site if different
             to British English.
 
-</html>
 </p>
 
 <h2>Semantic mark-up</h2>
@@ -325,5 +323,3 @@ summary: Read this before you make a website!
     will be a disaster and could cause much pain!</p>
 
 <p>Always be prepared to 're-wind' when things don't work. Version control can help with this.</p>
-
-s
