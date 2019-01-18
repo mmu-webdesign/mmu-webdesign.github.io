@@ -71,7 +71,7 @@ summary: Read this before you make a website!
                 <code>&lt;br /&gt;</code>.</li>
 
 </ul>
-<p>Use something like our <a href="https://github.com/mmu-webdesign/l4-rwd-template/blob/master/portfolio/index.html">Level 4 HTML template</a> as a starting point for your documents. In visual studio code, you can just create a new HTML document, save it, and type <code>!</code> then hit the <kbd>tab</kbd> key to create a simple HTML page.</p>
+<p>Use something like our <a href="https://github.com/mmu-webdesign/l4-rwd-template/blob/master/portfolio/index.html">Level 4 HTML template</a> as a starting point for your documents. Or in Visual Studio Code you can just create a new HTML document, save it, and type <code>!</code> then hit the <kbd>tab</kbd> key to create a simple HTML page.</p>
 <p>The language
             of your documents should be set to <code>&lt;html lang="en-gb"&gt;</code>. Adjust to match the main language of your site if it is not written in British English (<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang">more information about the language attribute, and where to find a list of all possible languages</a>).
 
