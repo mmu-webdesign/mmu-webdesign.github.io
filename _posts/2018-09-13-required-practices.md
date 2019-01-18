@@ -71,9 +71,8 @@ summary: Read this before you make a website!
                 <code>&lt;br /&gt;</code>.</li>
 
 </ul>
-<p>Use our <a href="html-template.html">HTML template</a> as a starting point for your documents. The language
-            is set <code>&lt;html lang="en-gb"&gt;</code>. Adjust to match the main language of your site if different
-            to British English.
+<p>Use our <a href="https://github.com/mmu-webdesign/l4-rwd-template/blob/master/portfolio/index.html">HTML template</a> as a starting point for your documents. The language
+            is set to <code>&lt;html lang="en-gb"&gt;</code>. Adjust to match the main language of your site if it is not written in British English (<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang">more information about the language attribute, and where to find a list of all possible languages</a>).
 
 </p>
 
