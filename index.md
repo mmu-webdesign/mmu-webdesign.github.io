@@ -17,7 +17,7 @@ exclude: true
                     <h2>On this site</h2>
                     <ul>
                         <li>
-                            <a href="/student-work/">You can view student work</a>
+                            <a href="/student-work/">You can view final year student web portfolios</a>
                         </li>
                         <li>
                             <a href="/degree/">Find out about our new degree plans</a>
