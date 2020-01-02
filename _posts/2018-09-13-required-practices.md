@@ -4,7 +4,7 @@ title:  Required Practices for Web Projects
 summary: Read this before you make a website!
 ---
 
- <h1>Required Practices for Web Assignments 2018&#8211;2019</h1>
+ <h1>Required Practices for Web Assignments 2020</h1>
 
  <div class="box">
             <p>In teaching web design as an academic subject, we need standards by which we can judge your work.</p>
