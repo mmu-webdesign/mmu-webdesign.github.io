@@ -41,8 +41,10 @@ summary: Read this before you make a website!
 
 <h2>Disclaimer</h2>
 
-<p>[All pages must carry our disclaimer that includes a link to the W3C Validator](https://github.com/wilsonderren/mmu-disclaimer/blob/master/disclaimer.html). <strong>Only</strong> client work for final year
-            projects is exempt from this requirement. A submission that fails to use the disclaimer will lose marks.</p>
+[All pages must carry our disclaimer that includes a link to the W3C Validator](https://github.com/wilsonderren/mmu-disclaimer/blob/master/disclaimer.html). 
+
+**Only** client work for final year
+            projects is exempt from this requirement. A submission that fails to use the disclaimer will lose marks.
 
 <h2>HTML5</h2>
 
