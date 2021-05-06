@@ -231,6 +231,32 @@ summary: Read this before you make a website!
 
 <p>Credit is given for original images &#8211; not for stock or library images.</p>
 
+<p>
+Stock or library images should be ‘rights free’ or you should be able to show that you have the legal right to use the image or icon.
+</p>
+<p>
+Some sites that are suitable for this include:
+</p>
+
+* Photographs at [Unsplash](https://unsplash.com/)
+* Icons at [Iconmonstr](https://iconmonstr.com/)
+* Illustrations at [Drawkit](https://www.drawkit.io/)
+* Illustrations at [Undraw.co](https://undraw.co/illustrations)
+
+<p>
+When you use these images you should put a comment in the HTML or CSS referencing the image, e.g. in HTML
+
+`<!—- Original image by Luke Besley https://unsplash.com/photos/6wAxcVqJA7Q -->`
+
+or for CSS 
+
+`/* Original image by Luke Besley https://unsplash.com/photos/6wAxcVqJA7Q */`
+
+Remember images should be optimised and resized for web use - [TinyJPG](https://tinyjpg.com/) or [Squoosh.app](https://squoosh.app/) can help with this.
+
+Also consider which file format you use: vector formats like SVG are much more ‘future proof’ than .gif or .png files for icons or illustrations.
+
+
 <h2>Files &amp; Folders</h2>
 
 <ul>
